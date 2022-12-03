@@ -1,9 +1,4 @@
 function buildCharts(patientID) {
-
-    // READ & INTERPRET THE DATA
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    // Read in the JSON data
     d3.json("samples.json").then((data => {console.log(data)
 
         console.log("hello");
